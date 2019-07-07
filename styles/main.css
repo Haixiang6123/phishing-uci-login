@@ -1,0 +1,133 @@
+html {
+    background: url("/assets/bg2.jpg");
+    font-family: Verdana, sans-serif;
+}
+
+body {
+    margin: 8px;
+}
+
+a {
+    color: #036;
+}
+
+.header {
+    background: #fff url(/assets/uci-blue-banner-retina.png) no-repeat 0;
+    background-size: 300%;
+    height: 55px;
+}
+
+.webauth-container {
+    width: 750px;
+    margin: 0 auto;
+    background-color: #fff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.title-bar {
+    margin-top: 3px;
+    background-color: #358;
+    padding: 5px 8px 4px 8px;
+    color: white;
+    font-weight: 800;
+}
+
+.content-container {
+    padding: 4px;
+    background: white;
+    font-size: 0.8em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-container h2 {
+    padding: 0;
+    margin: 0;
+    color: #036;
+    font-size: 1.4em;
+}
+
+.content-container .information-area {
+    padding: 4px;
+    width: 350px;
+}
+
+.content-container .external_link_note {
+    font-style: oblique;
+    font-size: 0.9em;
+}
+
+.content-container .login-area {
+    width: 350px;
+    background: #f1f1e7;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.content-container .status {
+    background: #f8e3cd url("/assets/alert.png") no-repeat 4px 6px;
+    padding: 6px 6px 6px 22px;
+}
+
+.login-form {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.login-form li {
+    padding: 5px 0;
+    margin: 0;
+    clear: both;
+    text-align: -webkit-match-parent;
+}
+
+.login-form label {
+    font-weight: 800;
+    width: 75px;
+    padding-top: 5px;
+    text-align: right;
+    padding-right: 3px;
+    cursor: default;
+}
+.login-form input {
+    vertical-align: middle;
+    font-size: 1.2em;
+}
+.login-form li.button-bar {
+    padding-left: 78px;
+}
+.login-form .example {
+    font-size: 0.8em;
+    color: #666;
+    margin-left: 80px;
+    clear: both;
+}
+
+.forgot-password {
+    clear: both;
+    text-align: right;
+    padding: 4px;
+    border-top: 1px solid #ddd;
+    display: block;
+    margin-top: 8px;
+}
+
+.forgot-password a {
+    color: #036;
+}
+
+.main_bottom_edge {
+    font-size: 0.8em;
+}
+
+.footer {
+    margin: 4px;
+    border-top: 1px solid #ddd;
+    font-size: 10px;
+    color: #666;
+    text-align: center;
+    padding: 10px;
+}

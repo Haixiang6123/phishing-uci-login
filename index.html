@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
+    <link rel="stylesheet" href="styles/main.css">
+    <title>UCInetID Secure Web Login</title>
+</head>
+<body>
+<div class="webauth-container">
+    <div class="header"></div>
+    <div class="title-bar">
+        UCInetID Secure Web Login
+    </div>
+    <div class="content-container">
+        <div class="information-area">
+            <h2>UCInetID Information</h2>
+            <p class="external_link_note">Note: Links open in new window(s)</p>
+            <ul>
+                <li><a href=https://activate.uci.edu"">Activate your UCInetID</a></li>
+                <li><a href="https://www.oit.uci.edu/ucinetid/">UCInetID Info</a></li>
+                <li><a href="https://security.uci.edu/my-account-activity.html">View Recent Account Activity</a></li>
+            </ul>
+        </div>
+
+        <div class="login-area">
+            <div class="status">
+                <span>The resource you requested requires you to re-authenticate. Or, you may login as another user.</span>
+            </div>
+            <ul class="login-form">
+                <li>
+                    <label for="ucinetid">UCInetID</label>
+                    <input id="ucinetid" name="ucinetid" type="text">
+                    <div class="example">UCInetID Example: ptanteater</div>
+                </li>
+                <li>
+                    <label for="password">Password</label>
+                    <input id="password" name="password" type="text">
+                </li>
+                <li class="button-bar">
+                    <button class="">Login</button>
+                </li>
+            </ul>
+            <div class="forgot-password">
+                <a href="https://activate.uci.edu">Forgot your password?</a>
+            </div>
+            <p>
+                <strong>WARNING! Protect your privacy. Logout when you are done and completely exit your
+                    browser. </strong>
+            </p>
+        </div>
+    </div>
+
+    <div class="main_bottom_edge">&nbsp;</div>
+
+    <div class="footer">
+        <p class="smalltext-footer">
+            Powered by WebAuth, Developed by
+            <a target="_blank" href="https://www.oit.uci.edu">OIT</a>.
+        </p>
+        <p class="smalltext-footer">
+            <a target="_blank" href="https://security.uci.edu">Computing Security & Resources</a>
+        </p>
+    </div>
+</div>
+<script src="scripts/main.js"></script>
+</body>
+</html>
