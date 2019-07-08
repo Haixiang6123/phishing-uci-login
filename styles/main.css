@@ -1,5 +1,5 @@
 html {
-    background: url("/assets/bg2.jpg");
+    background: url("../assets/bg2.jpg");
     font-family: Verdana, sans-serif;
 }
 
@@ -12,7 +12,7 @@ a {
 }
 
 .header {
-    background: #fff url("/assets/uci-blue-banner-retina.png") no-repeat 0;
+    background: #fff url("../assets/uci-blue-banner-retina.png") no-repeat 0;
     background-size: 300%;
     height: 55px;
 }
@@ -67,7 +67,7 @@ a {
 }
 
 .content-container .status {
-    background: #f8e3cd url("/assets/alert.png") no-repeat 4px 6px;
+    background: #f8e3cd url("../assets/alert.png") no-repeat 4px 6px;
     padding: 6px 6px 6px 22px;
 }
 
