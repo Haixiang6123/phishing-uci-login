@@ -7,6 +7,6 @@ loginButton.addEventListener('click', function (event) {
     loginStatus.style.visibility = 'visible'
     loginImage.style.visibility = 'visible'
     setTimeout(function () {
-        alert('You hare hacked, haha !!!')
+        alert('You are hacked, haha !!!')
     }, 1000)
 })
